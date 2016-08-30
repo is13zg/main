@@ -145,7 +145,7 @@ window.onload = function()
 	window.addEventListener('keydown', handler, false);
 	setCell(getRandomInt(1,20), getRandomInt(1,20), true);
 	setMyCell(1,1);
-	alert("game start now ");
+	alert("game start now "); alert("game start now ");
 	//setTimeout(function() { alert("your score is "+score);  location.reload(); }, 10000);
 
 }				
